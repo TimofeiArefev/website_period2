@@ -32,10 +32,10 @@
                     else{
                         $isPasswordCorrect = password_verify($password, $result[0]['hashed_password']);
                         if($isPasswordCorrect){
-                            $massage = "password is correct";
+                            $massage = "Password is correct";
                         }
                         else{
-                            $massage = "password is wrong";
+                            $massage = "Password is wrong";
                             $error = true; 
                         }
                     }
@@ -50,29 +50,19 @@
     ?>
 </head>
 <body>
-    <header class="header_container">
-        <div class="header__logo">
-            <h1>&#9734</h1>
-            <p> MorningStar</p>
-        </div>
-        <nav class="header_navigation">
-            <ul class="header_navigation-list">
-                <li><a href="#">Grades</a></li> 
-                <li><a href="#">Announcments</a></li> 
-                <li><a href="#">Logout</a></li> 
-            </ul>
-        </nav>
-    </header>
+    <?php require_once("../header/header.php");?>
+
     <main>
         <h1><?php echo $massage?></h1>
         <?php 
         
-        // if($error){
-        //     echo
-        // }
-
+        if($error){
+            echo '<a href="../login/index.php"><button>Go back</button></a>';
+        }
+        else{
+            echo '<a href="..\announcment\index.php"><button>Continue</button></a>';
+        }
         ?>
-    <a href=""></a>
     </footer>
 </body>
 </html>

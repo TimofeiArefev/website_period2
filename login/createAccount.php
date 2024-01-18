@@ -8,19 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header_container">
-        <div class="header__logo">
-            <h1>&#9734</h1>
-            <p> MorningStar</p>
-        </div>
-        <nav class="header_navigation">
-            <ul class="header_navigation-list">
-                <li><a href="">Grades</a></li> 
-                <li><a href="../announcment/index.php">Announcments</a></li> 
-                <li><a href="#">Appointments</a></li> 
-            </ul>
-        </nav>
-    </header>
+    <?php require_once("../header/header.php");?>
     <main>
         <form class="form__style" action="accountCreated.php" method="POST">
             <h1 class="form__text-center">Create account</h1>

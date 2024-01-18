@@ -38,21 +38,11 @@
     ?>
 </head>
 <body>
-    <header class="header_container">
-        <div class="header__logo">
-            <h1>&#9734</h1>
-            <p> MorningStar</p>
-        </div>
-        <nav class="header_navigation">
-            <ul class="header_navigation-list">
-                <li><a href="#">Grades</a></li> 
-                <li><a href="#">Announcments</a></li> 
-                <li><a href="#">Logout</a></li> 
-            </ul>
-        </nav>
-    </header>
+    <?php require_once("../header/header.php");?>
+
     <main>
         <h1><?php echo $error?"An error happened":"Account created" ?></h1>
+        <a href="../login/index.php"><button>Go back</button></a>
     </main>
     <footer>
 
