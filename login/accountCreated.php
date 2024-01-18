@@ -27,6 +27,7 @@
                                         "hashed_password" => password_hash($password, PASSWORD_DEFAULT), 
                                         "role" => $accountType]);
                     echo "<script>localStorage.setItem('role', '$accountType');</script>";
+                    echo "<script>localStorage.setItem('login', '$login');</script>";
                 }
                 catch(PDOException $e){
                     $error = true; 
