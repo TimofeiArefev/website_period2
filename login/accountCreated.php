@@ -18,9 +18,7 @@
             else{
                 $error = false; 
                 try{
-                    $user = "root";
-                    $passwordDB = "qwerty";
-                    $db = new PDO("mysql:host=mysql;dbname=morningdb", $user, $passwordDB);
+                    require_once("../db.php");
                     $quary = $db->prepare("INSERT INTO loginInfo 
                                 ( login, hashed_password, role )
                                 VALUES( :login, :hashed_password, :role)");

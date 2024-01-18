@@ -16,7 +16,7 @@
         <nav class="header_navigation">
             <ul class="header_navigation-list">
                 <li><a href="">Grades</a></li> 
-                <li><a href="#">Announcments</a></li> 
+                <li><a href="../announcments/index.php">Announcments</a></li> 
                 <li><a href="#">Appointments</a></li> 
             </ul>
         </nav>
