@@ -18,9 +18,7 @@
             }   
         ?>
         <div id="announce"></div>
-        <?php 
-        require_once("display.php");
-        ?>
+        <?php require_once("display.php");?>
     </main>
 </body>
 </html>

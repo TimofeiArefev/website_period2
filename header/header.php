@@ -7,8 +7,9 @@
             </div>
             <nav class="header_navigation">
                 <ul class="header_navigation-list">
-                    <li><a href="">Grades</a></li> 
-                    <li><a href="./announcment/index.php">Announcments</a></li> 
+                    <li><a href="../login/index.php">Login</a></li>
+                    <li><a href="">Grades</a></li>
+                    <li><a href="../announcment/index.php">Announcments</a></li> 
                     <li><a href="#">Appointments</a></li> 
                 </ul>
             </nav>

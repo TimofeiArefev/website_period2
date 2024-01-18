@@ -8,19 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header_container">
-        <div class="header__logo">
-            <h1>&#9734</h1>
-            <p> MorningStar</p>
-        </div>
-        <nav class="header_navigation">
-            <ul class="header_navigation-list">
-                <li><a href="#">Grades</a></li> 
-                <li><a href="#">Announcments</a></li> 
-                <li><a href="#">Logout</a></li> 
-            </ul>
-        </nav>
-    </header>
+    <?php require_once("../header/header.php");?>
     <main>
         <form class="form__style" action="loginInfo.php" method="post">
             <h1 class="form__text-center">Login</h1>
