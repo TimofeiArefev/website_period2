@@ -25,7 +25,7 @@
         <form class="form__style" action="loginInfo.php" method="post">
             <h1 class="form__text-center">Login</h1>
             <input class="input__style" type="text" name="login" id="login"  placeholder="Your login">
-            <input class="input__style" type="password" name="login" id="login"  placeholder="Your password">
+            <input class="input__style" type="password" name="password" id="password"  placeholder="Your password">
             <button class="input__style form_submit" type="submit">Submit</button>
             <a class="form__create-account" href="createAccount.php">Create account</a>
         </form>
