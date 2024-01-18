@@ -67,9 +67,9 @@
         <h1><?php echo $massage?></h1>
         <?php 
         
-        if($error){
-            echo
-        }
+        // if($error){
+        //     echo
+        // }
 
         ?>
     <a href=""></a>

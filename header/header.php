@@ -10,7 +10,7 @@
                     <li><a href="../login/index.php">Login</a></li>
                     <li><a href="">Grades</a></li>
                     <li><a href="../announcment/index.php">Announcments</a></li> 
-                    <li><a href="#">Appointments</a></li> 
+                    <li><a href="../appointment/index.php">Appointments</a></li> 
                 </ul>
             </nav>
         </header>
